@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Shopkart</title>
+        <link href="{% static 'css/style.css' %}" rel="stylesheet" >
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+<body>
+     <header>
+         <nav>
+         <div class ="main"> 
+             <div class="logo">
+                 <img src="{% static 'images/o.png' %}">
+             </div>
+             <ul class="navit">
+                 <li class="active"><a href="#">Home</a></li>
+                 <li><a href="products">Products</a></li>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Contact</a></li>
+             </ul>
+         </div>
+        </nav>  
+            <div class="title">
+                 <h1>ShopKart!</h1>
+            </div>
+            <div class="button">
+                <a href="" class="btn">New Arrival</a>
+                <a href="" class="btn">Discount Products</a>
+
+            </div>
+     </header>
+     <footer>
+         <section>
+         <div class="footer">
+             <div class="copy">
+                <h6>Copyright &copy; 2020 My website</h6>
+                <h6>Contact us</h6>
+             </div>
+            
+            <div class="contact">
+                <h6>Contact us</h6>
+            </div>
+           
+            <div class="policy">
+                <h6>Privacy Policy</h6>
+            </div>
+            
+            
+         </div>
+        </section>
+     </footer>
+
+</body>
+</html>
